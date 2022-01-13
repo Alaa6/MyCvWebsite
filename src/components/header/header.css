@@ -1,0 +1,46 @@
+.Headercontainer {
+    display:  flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+
+}
+
+.nav-bar-sections {
+    margin: 75px;
+}
+
+.nav-bar {
+    color:  #fff;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: 25px;
+}
+
+.nav-bar-item {
+    color:  #fff;
+    text-decoration: none;
+}
+
+.nav-bar-sections ul  li  a {
+    font-weight: 500;
+}
+
+#pdf-cv-section {
+    border: 1.5px solid #fff;
+    padding: 10px 50px;
+    font-size: 13px;
+    font-weight: 300;  
+}
+
+#pdf-cv-section:hover  {
+    background-color: #fff;
+    border: 1.5px solid #df4243;
+    cursor: pointer;  
+}
+
+#pdf-cv-section:hover .nav-bar-item {
+    color:  #df4243;
+
+}

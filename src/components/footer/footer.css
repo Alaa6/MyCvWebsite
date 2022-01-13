@@ -1,0 +1,143 @@
+
+  #footer-section {
+    margin-top: 40vh;
+    width: 100%;
+    height: 90vh;
+}
+
+.split-footer{
+  width: 100%;
+  height: 90vh;
+  display: flex;
+}
+
+.left-footer ,  .right-footer{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+ 
+
+}
+.left-footer {
+    background-color: #2e4975;
+}
+
+.footer-title h2 {
+    font-size: 40px;
+    font-weight: 400;
+    text-align: center;
+}
+.left-footer div  h3 {
+    text-align: start;
+}
+
+.left-footer  h3 span {
+    margin-left: 4vw;
+    font-weight: 200;
+}
+
+.footer-title .small-hr {
+    width: 3vw;
+}
+
+.right-footer{
+  background-color: #bbc8dd;  
+  color: #000;    
+}
+
+.bottom-footer{
+  background-color:#edeff5 ;
+  width: 100%;
+  height: 40vh;   
+}
+
+.footer-title {
+  display: flex;
+  flex-direction: column;
+  /* background-color: aqua; */
+}
+
+.footer-body {
+  margin-top: 10vh;
+}
+
+.footer-split {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+
+
+}
+.footer-split-left, .footer-split-right{
+  width: 40vw;
+  height:  40vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* background-color: red; */
+  /* margin-left: 5vw; */
+
+}
+
+.footer-split-left {
+  /* background-color: teal; */
+}
+.footer-split-right{
+  /* background-color: tomato; */
+}
+
+.copy-right , .follow-me {
+ 
+  margin-top: 3vh;
+  font-size: 12px;
+  font-weight: 300;
+  color: #000;
+}
+
+.follow-me{
+  /* margin-top: 0; */
+}
+
+.footer-pdf-cv {
+  border: 1.5px solid #000;
+  padding: 20px 100px;
+  font-size: 15px;
+  font-weight: 300;  
+  color:  #000;
+  text-decoration: none;
+
+ 
+}
+
+.footer-pdf-cv:hover {
+  background-color: #fff;
+
+}
+
+.bottom-footer .split div {
+  margin-top: 7vh;
+  width: 40vw;
+}
+.bottom-footer .split div  .social-accounts {
+  width: 10vw;
+  margin-top: 0;
+
+
+}
+
+
+.social-accounts {
+  display: flex;
+  width: 7vw;
+  justify-content: space-around;
+}
+.social-accounts a img {
+  width: 3vw;
+  /* margin-left: 10px ; */
+} 
+
+

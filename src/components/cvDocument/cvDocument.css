@@ -1,0 +1,19 @@
+#pdf-cv {
+    border: 1.5px solid #fff;
+    padding: 10px 50px;
+    font-size: 13px;
+    font-weight: 300;  
+    color:  #fff;
+    text-decoration: none;
+}
+
+#pdf-cv:hover  {
+    background-color: #fff;
+    border: 1.5px solid #df4243;
+    cursor: pointer;  
+}
+
+#pdf-cv:hover  {
+    color:  #df4243;
+
+}
