@@ -1,8 +1,20 @@
+.center{
+    display: flex;
+    flex-direction: column;
+
+
+}
+
 .carousel-header {
     display: flex;
-    justify-content: space-evenly;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* margin-left: 20vw; */
     align-items: center;
     margin: 20px;
+    width: 80%;
+    align-self: center;
+    /* background-color: red; */
 
   
 }

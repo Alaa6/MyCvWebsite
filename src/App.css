@@ -2,6 +2,14 @@
   box-sizing: border-box;
 }
 
+/* a[target=_blank] {
+  background-color: yellow;
+} */
+
+div[display=flex] {
+  flex-wrap: wrap;
+}
+
 .App {
   background: url("https://static.wixstatic.com/media/84770f_aa5443ee25e74ddda9306ef6898c30c3~mv2.jpg/v1/fill/w_1432,h_504,al_c,q_85,usm_0.66_1.00_0.01/84770f_aa5443ee25e74ddda9306ef6898c30c3~mv2.webp");
   background: url("https://static.wixstatic.com/media/05e3dc_cc646f530d6846828d53dd3216ec8023~mv2.jpg/v1/fill/w_1432,h_708,al_c,q_85,usm_0.66_1.00_0.01/05e3dc_cc646f530d6846828d53dd3216ec8023~mv2.webp");
@@ -15,12 +23,6 @@
 
 }
 
-
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -39,9 +41,7 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
+
 
 @keyframes App-logo-spin {
   from {

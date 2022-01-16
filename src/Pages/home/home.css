@@ -8,7 +8,7 @@
 }
 
 #my-name-section{
-    margin-top: 20%;      
+    /* margin-top: 40%;       */
 }
 .home-sections {
     align-self: center;
@@ -60,20 +60,28 @@
     padding-top: 20px;
     padding-bottom: 20px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: flex-start;
     text-align: left;
+    /* flex-wrap: wrap; */
     /* background-color: blue; */
     
 
   }
 
   .left, .right{
-    width: 30vw;
+    flex-basis: 30vw;
     /* background-color: red; */
     margin-left: 5vw;
-
   }
+
+  /* .left {
+      background-color: red;
+  }
+
+  .right{
+      background-color: green;
+  } */
 
   .company-name , .date {
       margin-top: 1vh ;

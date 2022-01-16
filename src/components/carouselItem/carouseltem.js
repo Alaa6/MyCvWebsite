@@ -7,7 +7,7 @@ import Pdf from '../../assets/documents/cv.pdf';
 export default function CarouselItem({ headerName, aboutMe }) {
 
     return (
-        <div  >
+        <div  className="center" >
             <div className="carousel-header">
                 <div>
                     <h2 className="headerName">{headerName}</h2>

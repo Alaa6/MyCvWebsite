@@ -1,6 +1,6 @@
 
 import './header.css';
-import Pdf from '../../assets/documents/cv.pdf';
+import Pdf from '../../assets/documents/cv2.pdf';
 
 export default function Header() {
 

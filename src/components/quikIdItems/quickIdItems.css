@@ -1,0 +1,35 @@
+.quick-id-item {
+    display: flex;
+    align-items: center;
+    /* background-color: red; */
+
+
+  
+  }
+
+  .quick-id-item  h3 ,  .quick-id-item  span  {
+    flex-wrap: wrap;
+  }
+
+  .quick-id-item  h3{
+      flex-basis: 10vw;
+
+  }
+  
+  .quick-id-item  span {
+    margin-left: 4vw;
+    font-weight: 200;
+    /* background-color: green; */
+    flex-basis: 20vw;
+  }
+
+  .contacts-left {
+    /* background-color: aqua; */
+    width: 10vw;
+  }
+  
+  .contacts-right {
+    /* background-color: brown; */
+    width: 30vw;
+
+  }

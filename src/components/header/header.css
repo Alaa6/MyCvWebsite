@@ -1,7 +1,6 @@
 .Headercontainer {
     display:  flex;
     justify-content: space-between;
-    position: fixed;
     width: 100%;
 
 }
@@ -42,5 +41,9 @@
 
 #pdf-cv-section:hover .nav-bar-item {
     color:  #df4243;
+}
+
+.nav-bar .nav-bar-item {
+    /* position: fixed; */
 
 }

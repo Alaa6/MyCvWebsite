@@ -1,9 +1,12 @@
 
 import './footer.css';
 import Pdf from '../../assets/documents/cv.pdf'
+import QuickIDItems from '../quikIdItems/quickIdItems';
 
 
 export default function Footer() {
+
+    const address = ``
 
     return (
         <section id="footer-section" className="home-sections">
@@ -14,9 +17,13 @@ export default function Footer() {
                         <div className="small-hr" ></div>
                     </div>
                     <div className="footer-body">
-                        <h3>Phone <span> +201142815672 </span></h3>
-                        <h3>Email <span> alaa.ashraf775@gmail.com </span></h3>
-                        <h3>Address <span> 20 El Fath Street 3<sup>rd</sup> settlement New Cairo , Cairo, Egypt </span></h3>
+                        {/* <QuickIDItems leftTitle={'Phone'}    rightDes={'+201142815672'}/> */}
+                        <QuickIDItems contactsLeft={'Phone'} contactsRight={'+2011********'} />
+                        {/* <QuickIDItems leftTitle={'Email'}    rightDes={'alaa.ashraf775@gmail.com'}/> */}
+                        <QuickIDItems contactsLeft={'Email'} contactsRight={'alaa.*********@gmail.com'} />
+                        {/* <QuickIDItems leftTitle={'Address'}  rightDes={`20 El Fath Street third settlement New Cairo , Cairo, Egypt `}/> */}
+                        <QuickIDItems contactsLeft={'Address'} contactsRight={`Cairo , Egypt`} />
+
                     </div>
 
 
@@ -29,8 +36,8 @@ export default function Footer() {
 
                     <div className="split">
                         <div>
-                            <h3>Technical skills</h3>
-                            <ul>
+                            {/* <h3>Technical skills</h3> */}
+                            <ul className="skills">
                                 <li>Object oriented programming</li>
                                 <li> Java Script (Es6)
                                 <ul>
@@ -45,6 +52,12 @@ export default function Footer() {
                                     </ul>
                                 </li>
                                 <li>Work with Firebase , Mongo DB  & Realm database</li>
+
+                            </ul>
+                        </div>
+                        <div>
+                            <ul className ="skills">
+
                                 <li>HTML4 ,HTML 5</li>
                                 <li>CSS 2 , CSS 3 , Scss</li>
                                 <li>Bootstrap 4</li>
@@ -54,12 +67,9 @@ export default function Footer() {
                                 </li>
                                 <li>Object oriented programming</li>
                                 <li> Version control management system (Github and Gitlab)</li>
-
-
-
                             </ul>
                         </div>
-                        <div>
+                        {/* <div>
                             <h3>Soft skills</h3>
 
                             <ul>
@@ -69,7 +79,7 @@ export default function Footer() {
                                 <li>Team worker</li>
                             </ul>
 
-                        </div>
+                        </div> */}
                     </div>
 
                 </div>
@@ -81,7 +91,7 @@ export default function Footer() {
                     {/* 1 */}
                     <div className="footer-split-left">
                         <a className="footer-pdf-cv" href={Pdf} target="_blank">DOWNLOAD MY FULL RESUME</a>
-                        <div className="copy-right">&copy;2020 by Alaa Ashraf</div>
+                        <div className="copy-right">&copy;2022 by Alaa Ashraf</div>
                     </div>
                     {/* 2 */}
                     <div className="footer-split-right">
