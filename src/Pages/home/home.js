@@ -27,14 +27,24 @@ export default function Home() {
     // Sample items for Carousel
     const items = [
         {
-            caption: 'Sample Caption One', 
-            src:'https://media.geeksforgeeks.org/wp-content/uploads/20210425122739/2-300x115.png',
-            altText: 'Slide One'
+            headerTitle :"ABOUT ME" ,
+            // caption: 'Sample Caption One', 
+            // src:'https://media.geeksforgeeks.org/wp-content/uploads/20210425122739/2-300x115.png',
+            // altText: 'Slide One'
         },
         {
-            caption: 'Sample Caption Two', 
-            src:'https://media.geeksforgeeks.org/wp-content/uploads/20210425122716/1-300x115.png',
-            altText: 'Slide Two'
+            // caption: 'Sample Caption Two', 
+            headerTitle :"EXPERIENCE" ,
+
+            // src:'https://media.geeksforgeeks.org/wp-content/uploads/20210425122716/1-300x115.png',
+            // altText: 'Slide Two'
+        },
+        {
+            // caption: 'Sample Caption Two', 
+            headerTitle :"EDUCATION" ,
+
+            // src:'https://media.geeksforgeeks.org/wp-content/uploads/20210425122716/1-300x115.png',
+            // altText: 'Slide Two'
         }
     ];
 
@@ -66,7 +76,7 @@ export default function Home() {
                 onExiting={() => setAnimating(true)}
             >
                 {/* <img src={item.src} alt={item.altText} /> */}
-                <CustomCarouselItem headerName="ABOUT ME" aboutMe />
+                <CustomCarouselItem headerTitle={item.headerTitle} aboutMe />
             </CarouselItem>
         );
     });
@@ -85,7 +95,7 @@ export default function Home() {
             <section id="cv-content-section" className="home-sections">
 
 
-                <Carousel previous={previousButton} next={nextButton}
+                <Carousel className="myCarousel" dark previous={previousButton} next={nextButton}
                     activeIndex={activeIndex}>
                     <CarouselIndicators items={items}
                         activeIndex={activeIndex}

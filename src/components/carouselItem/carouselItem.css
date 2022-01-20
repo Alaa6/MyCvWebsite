@@ -19,6 +19,63 @@
   
 }
 
+.split {
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: left;
+    flex-wrap: wrap;
+    /* background-color: blue; */
+    
+
+  }
+
+  .left, .right{
+    /* flex-basis: 30vw; */
+    /* background-color: red; */
+    margin-left: 5vw;
+
+  }
+
+  /* .left {
+      background-color: red;
+  }
+
+  .right{
+      background-color: green;
+  } */
+
+  .company-name , .date {
+      margin-top: 1vh ;
+  }
+  .company-name {
+    display: block ;
+    font-size: 14px;
+     
+  }
+  .job-title {
+      font-size: 18px;
+  }
+  .company-name a {
+    color: #000;
+    text-decoration: none;
+
+  }
+  .date {
+      color: #94a3ba;
+      display: block ;
+  }
+
+  .decription-body {
+      margin-top: 1vh;
+      margin-bottom: 2vh;
+  }
+
+
+
 .social-accounts {
     display: flex;
     width: 7vw;

@@ -4,11 +4,14 @@ import Header from './components/header/header'
 import Home from "./Pages/home/home";
 import Footer from './components/footer/footer';
 
+const { innerWidth: width, innerHeight: height } = window;
+
 
 function App() {
 
   return (
-    <div className="App" >
+    <div  className="App" >
+
       <section id="header">
         <Header />
       </section>

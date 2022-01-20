@@ -10,8 +10,8 @@ export default function Footer() {
 
     return (
         <section id="footer-section" className="home-sections">
-            <div className="split-footer">
-                <div className="left-footer">
+            <div className="split-footer row">
+                <div className="left-footer col-12  col-sm-12 col-md-12 col-lg-6 col-xl-6">
                     <div className="footer-title" >
                         <h2 >QUICK ID</h2>
                         <div className="small-hr" ></div>
@@ -28,7 +28,7 @@ export default function Footer() {
 
 
                 </div>
-                <div className="right-footer">
+                <div className="right-footer col-12 col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
                     <div className="footer-title" >
                         <h2 style={{ color: "#000" }} >Skills</h2>
                         <div className="small-hr" ></div>
