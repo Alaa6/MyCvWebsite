@@ -6,11 +6,10 @@ import QuickIDItems from '../quikIdItems/quickIdItems';
 
 export default function Footer() {
 
-    const address = ``
 
     return (
-        <section id="footer-section" className="home-sections">
-            <div className="split-footer row">
+        <section id="footer-section  " className="home-sections ">
+            <div className="split-footer row ">
                 <div className="left-footer col-12  col-sm-12 col-md-12 col-lg-6 col-xl-6">
                     <div className="footer-title" >
                         <h2 >QUICK ID</h2>
@@ -85,16 +84,16 @@ export default function Footer() {
                 </div>
 
             </div>
-            <section className="bottom-footer">
+            <section className="bottom-footer  container ">
 
-                <div className="footer-split">
+                <div className="footer-split row ">
                     {/* 1 */}
-                    <div className="footer-split-left">
+                    <div className="footer-split-left col-12 col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
                         <a className="footer-pdf-cv" href={Pdf} target="_blank">DOWNLOAD MY FULL RESUME</a>
                         <div className="copy-right">&copy;2022 by Alaa Ashraf</div>
                     </div>
                     {/* 2 */}
-                    <div className="footer-split-right">
+                    <div className="footer-split-right col-12 col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
                         <div className="social-accounts">
                             <a target="_blank" href="https://www.linkedin.com/in/alaa-ashraf-30a8a914b/">
                                 <img src="https://static.wixstatic.com/media/aa0402eb9ba2430d9d0620b59556efca.png/v1/fill/w_32,h_32,al_c,q_85,usm_0.66_1.00_0.01/aa0402eb9ba2430d9d0620b59556efca.webp" />
